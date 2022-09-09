@@ -1,0 +1,1 @@
+Error in library("stringr", lib.loc = "/Library/Frameworks/R.framework/Versions/3.2/Resources/library"): no library trees found in 'lib.loc'

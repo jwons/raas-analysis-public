@@ -1,0 +1,66 @@
+R files [622] Function Error
+R files [5783] Library Error
+R files [1454] Missing File
+R files [481] Missing Object
+R files [716] Other Error
+R files [1249] Success
+R files [14] Timed Out
+R files [1741] Working Directory
+
+Function Error [420] Function  Error
+Function Error [14] Missing  File
+Function Error [18] Missing  Object
+Function Error [58] Other  Error
+Function Error [112] Success
+
+Library Error [213] Function  Error
+Library Error [1220] Library  Error
+Library Error [1374] Missing  File
+Library Error [231] Missing  Object
+Library Error [829] Other  Error
+Library Error [1879] Success
+Library Error [37] Working  Directory
+
+Missing File [75] Function  Error
+Missing File [40] Library  Error
+Missing File [906] Missing  File
+Missing File [51] Missing  Object
+Missing File [101] Other  Error
+Missing File [281] Success
+
+Missing Object [1] Function  Error
+Missing Object [1] Missing  File
+Missing Object [320] Missing  Object
+Missing Object [4] Other  Error
+Missing Object [155] Success
+
+Other Error [8] Function  Error
+Other Error [19] Library  Error
+Other Error [37] Missing  File
+Other Error [25] Missing  Object
+Other Error [301] Other  Error
+Other Error [326] Success
+
+
+Timed Out [1] Other  Error
+Timed Out [13] Success
+
+Working Directory [122] Function  Error
+Working Directory [172] Library  Error
+Working Directory [500] Missing  File
+Working Directory [32] Missing  Object
+Working Directory [266] Other  Error
+Working Directory [618] Success
+Working Directory [31] Working  Directory
+
+:Success  #00CC00  << 
+:Library  Error #0033cc <<
+:Library Error #0033cc <<
+:Function  Error #cccc00 <<
+:Function Error #cccc00 <<
+:Missing  File #cc0033 <<
+:Missing File #cc0033 <<
+:Other  Error #cc6600 <<
+:Other Error #cc6600 <<
+:Working  Directory #cc00cc <<
+:Working Directory #cc00cc <<

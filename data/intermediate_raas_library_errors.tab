@@ -1,0 +1,6 @@
+doi	script	error	library
+doi:10.7910/DVN/ODQVVO	no.scotus.R	Error in library(car): there is no package called ‘car’	car
+doi:10.7910/DVN/ODQVVO	Capital Habeas Analysis.R	Error in library(car): there is no package called ‘car’	car
+doi:10.7910/DVN/P3HJGS	afd-fanpage-replication.R	Error in library(qdap): there is no package called ‘qdap’	qdap
+doi:10.7910/DVN/EEMRS9	randomization inference.R	Error in library(ri): there is no package called ‘ri’	ri
+doi:10.7910/DVN/VLBOBH	Thesis_R.R	Error in library("xlsx"): there is no package called ‘xlsx’	xlsx
