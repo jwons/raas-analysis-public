@@ -1,7 +1,6 @@
-- rdtLite Error
-- Error: Error in step 4 ():
-	Error in declare_ra(N = 400L, prob = ~prob_A, legacy = ~TRUE): unused argument (legacy = ~TRUE)
+- Error in getinfo.shape(filen): Error opening SHP file
 
+- Error in sink(my_log, append = T, type = "message"): 'file' must be NULL or an already open connection
 
-- Error: Cannot open "worldmap"; The file doesn't seem to exist.
+- Error in ogrInfo(dsn = dsn, layer = layer, encoding = encoding, use_iconv = use_iconv, : Cannot open data source
 

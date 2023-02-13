@@ -6,6 +6,6 @@ RUN pip install tabulate plotly kaleido jupyter nbconvert pandoc-fignos pandoc-e
 
 USER root
 
-RUN cp /home/jovyan/work/make_paper_in_container.sh /home/jovyan/
+RUN cp /home/jovyan/work/__run_analysis_in_container.sh /home/jovyan/
 
 RUN sudo chown -R jovyan:users /home/jovyan/work

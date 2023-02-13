@@ -7,5 +7,5 @@ figures := $(wildcard figures/*.png)
 scripts/generate_figures_plots.py: scripts/generate_figures_plots.ipynb
 	cd scripts && jupyter nbconvert generate_figures_plots.ipynb --to python && python generate_figures_plots.py
 
-complete_paper.md: scripts/replace_md_with_results.py scripts/generate_figures_plots.py $(md_inserts) $(figures)
-	python scripts/replace_md_with_results.py
+complete_paper.md: scripts/analysis_completed.py scripts/generate_figures_plots.py $(md_inserts) $(figures)
+	python scripts/analysis_completed.py

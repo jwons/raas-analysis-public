@@ -905,20 +905,20 @@ write_file_from_string("perc_errors_not_repeated.md", "{0:.1f}%".format((total_e
 
 # ## Dataset Level 
 
-# In[28]:
+# In[37]:
 
 
 dataset_level_md = '''
 ---------------------------------------------
                           Control   Treatment                                               
   --------------------- --------- -----------
-    Fraction Successful      CTRL_SUCCESS       TREAT_SUCCESS  
+     Percent Successful      CTRL_SUCCESS       TREAT_SUCCESS  
      
-     Fraction Timed-out      CTRL_TIMEOUT        TREAT_TIMEOUT
+      Percent Timed-out      CTRL_TIMEOUT        TREAT_TIMEOUT
    
 ---------------------------------------------
 
-Table: This table displays the fraction of dataset errors and timeouts out of all TOTAL_DS runnable datasets. {#tbl:dataset-level-fraction}
+Table: This table displays the percentage of dataset errors and timeouts out of all TOTAL_DS runnable datasets. Our control is running scripts without RaaS, and our treatment is running scripts with RaaS. {#tbl:dataset-level-fraction}
 '''
 
 
@@ -952,20 +952,20 @@ write_file_from_string("runnable_datasets.md", str(runnable_datasets))
 
 # ## Script Level 
 
-# In[29]:
+# In[38]:
 
 
 script_level_md = '''
 --------------------------------------------------------------------------------------------------------
                           Control   Treatment   Chen Control   Chen Treatment       Trisovic et al. Best                                              
   --------------------- --------- -----------  ------------- ----------------  -------------------------  
-    Fraction Successful     CTRL_SUCCESS       TREAT_SUCCESS          CHEN_SUCCESS            CHEN_TREAT                      TRIS_BEST
+     Percent Successful     CTRL_SUCCESS       TREAT_SUCCESS          CHEN_SUCCESS            CHEN_TREAT                      TRIS_BEST
      
-     Fraction Timed out      CTRL_TO        TREAT_TO        Unknown          Unknown                      TRIS_TO
+      Percent Timed out      CTRL_TO        TREAT_TO        Unknown          Unknown                      TRIS_TO
 
 --------------------------------------------------------------------------------------------------------
 
-Table: This table displays the fraction of runnable scripts that produced errors with and without RaaS. {#tbl:script-level-fraction}
+Table: This table displays the percentage of runnable scripts that produced errors with and without RaaS. {#tbl:script-level-fraction}
 '''
 
 #Values taken from Chen's thesis results
